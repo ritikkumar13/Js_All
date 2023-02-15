@@ -1,0 +1,5 @@
+first.insertAdjacentHTML('beforebegin', '<div class="test">BeforeBegin</div>')
+first.insertAdjacentHTML('beforeend', '<div class="test">BeforeEnd</div>')
+first.insertAdjacentHTML('afterbegin', '<div class="test">AfterBegin</div>')
+first.insertAdjacentHTML('afterend', '<div class="test">AfterEnd</div>')
+// first.remove()
