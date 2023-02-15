@@ -1,0 +1,35 @@
+html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Signika Negative', sans-serif;
+        }
+
+        body {
+            background-image: url('https://t3.ftcdn.net/jpg/01/68/76/94/360_F_168769418_GHALsqlIr8jlG6iIhIfuSPOr2hnWk53r.jpg');
+
+        }
+
+        h2,
+        h1,
+        h3 {
+            color: yellowgreen;
+        }
+
+        #container {
+            letter-spacing: 1px;
+            display: flex;
+            align-items: left;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 5vw;
+            margin-left: 8vw;
+            text-align: left;
+            color: white;
+        }
